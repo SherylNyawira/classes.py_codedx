@@ -23,7 +23,7 @@ class BankAccount:
     def display_balance(self):
         print(f"Current balance: ${self.balance:.2f}")
 
-# Initialize a new bank account
+# Initialize a new bank account for John
 account = BankAccount("John", "Doe", 123456, "Savings", 1234)
 
 # Deposit $96
